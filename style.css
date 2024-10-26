@@ -105,6 +105,7 @@ h2,h1{
 .mong{
     height:6rem;
     /* width: 60rem; */
+    padding-bottom:1rem
 }
 a{
     color: aliceblue;
