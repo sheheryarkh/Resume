@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   font-family: "poppins",sans-serif;
+   
+}
+img{
+    min-width:1rem;
+    max-width: 6rem;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+}
+li {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+hr{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+    
+;
+    
+}
+#server{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+    
+}
+.imgs{
+    width :8.8rem;
+    border-radius: 50%;
+    /* height: 6rem; */
+}
+.lis{
+    list-style: decimal;
+}
+#p{
+    width: 80;
+}
+#side{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    background-color:rgb(85, 101, 225) ;
+    width: 20%;
+    gap: 1;
+    
+
+}
+h2,h1{
+    text-decoration: none ;
+}
+#Skills{
+    list-style: lower-alpha;
+}
+#oside{
+    background-color:rgb(96, 79, 189);
+    color: aliceblue;
+    text-align: center;
+    padding-top: 1.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    color: aliceblue;
+}
+#parent{
+    display: flex;
+    
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding:0 0 20 20;
+    width: 10%;
+}
+
+.images{
+    display: flex;
+    padding-top: 1.1rem;
+    justify-content: center;
+    row-gap: 0.5rem;
+}
+#png{
+    padding-top: 1.1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.mong{
+    height:6rem;
+    /* width: 60rem; */
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 0.5rem;
+    
+}
+#hrr{
+    margin-right: 0.5rem;
+    
+}
+#form{
+    border: soild 2px rgb(164, 146, 146);
+    
+}
+textarea{
+    width: 22rem;
+}
+input{
+    width: 250;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1rem;
+    /* position: absolute; */
+    padding-top: 1rem;
+    
+    padding-left: 1rem;
+    width: fit-content;
+    height: 10em;
+    padding-top: 2rem;
+    /* cursor: pointer; */
+    flex-grow: inherit;
+    flex-shrink: inherit;
+}
+.html{
+    padding-top:5px;
+    
+}
+.expertise{
+    padding-top: 2rem;
+    
+}
+
+@media(max-width:600px){
+    #parent{
+        /* padding-top: 1rem; */
+        flex-direction: column;
+        
+    }
+    #side{
+        /* padding-top: 1rem; */
+        padding-left: 2rem;
+        padding-right: 3rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        background-color:rgb(85, 101, 225) ;
+        width: fit-content;
+        gap: 1;
+        
+    
+    }
+    #png{
+        padding-top: 1.1rem;
+        padding-left: 0.5em;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    #server{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 2rem;
+        flex-shrink: inherit;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 1em;
+
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        padding:0 0 20 20;
+        width: 5%;
+
+    }
+    #oside{
+        background-color:rgb(96, 79, 189);
+        color: aliceblue;
+        text-align: center;
+     
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        width: fit-content;
+        color: aliceblue;
+    }
+}
+a{
+    border: 1px solid rgb(96, 79, 189);
+    border-radius: 1rem;
+   padding-bottom: 0px;
+}
